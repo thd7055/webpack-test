@@ -1,0 +1,5 @@
+body {
+    /* rem : 반응형에 쓰기 좋다 */
+    font-size: 2rem;
+    color: #ff8e18;
+}

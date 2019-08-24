@@ -1,0 +1,16 @@
+body{
+  background: #fff;
+
+  // 자식 형태로 쓸 수 있다.
+  div {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid #ffa427;
+
+    // & : 부모참조 연산자
+    &.active{
+      font-size: 3rem;
+    }
+  }
+}
+
